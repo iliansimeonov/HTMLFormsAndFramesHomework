@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Please Register</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form name="Registration Form" action="/" method="post">
+        <table border="1" style="border:thin" cellspacing="0">
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="lname">Last Name</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="text" name="lastname" id="lname" placeholder="Last Name" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="fname">First Name</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="text" name="firstname" id="fname" placeholder="First Name" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="addres">Addres</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <textarea name="Addres" id="addres" placeholder="str. & number" style="width:200px" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="city">City</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="text" name="city" id="city" placeholder="Your city" size="10" />
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state" placeholder="State/Province" size="12" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="zip">Zip/Postal Code</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="text" name="zip" id="zip" placeholder="Zip/Postal code" size="10" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    Country
+                </td>
+                <td style="width:250px" align="left">
+                    <select name="country">
+                        <option value="Value1" selected="selected">Bulgaria</option>
+                        <option value="Value2">Zimbabwe</option>
+                        <option value="Value3">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="phonenumber">Phone(country code, area code, number)</label>
+                </td>
+                <td style="width:250px" align="left">
+                    (+<input type="tel" name="countrycode" size="1" id="phonenumber" />)
+                    <input type="tel" name="areacode" size="1" />
+                    <input type="tel" name="number" size="5" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="email">E-mail</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="email" name="email" id="email" placeholder="Your e-mail" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="birthdate">Birth date</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="date" name="birthdate" id="birthdate" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="gender">Gender</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <select name="gender" id="gender">
+                        <option value="Value1">male</option>
+                        <option value="Value2">female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    Starting date
+                </td>
+                <td style="width:250px" align="left">
+                    <input type="radio" name="spring" id="spring" />
+                    <label for="spring">Spring 2015</label>
+                    <input type="radio" name="summer" id="summer" />
+                    <label for="summer">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:150px" align="center">
+                    <label for="comments">Comments/Questions</label>
+                </td>
+                <td style="width:250px" align="left">
+                    <textarea name="comment" id="comments" placeholder="Add your comment" style="width:200px" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:400px;background:aqua" align="center" colspan="2">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clean this form</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
